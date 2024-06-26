@@ -1,0 +1,16 @@
+{
+    "idf.adapterTargetName": "esp32s3",
+    "idf.portWin": "COM16",
+    "idf.flashType": "UART",
+    "files.associations": {
+        "myadc.h": "c",
+        "mytimer.h": "c",
+        "servo.h": "c",
+        "motor.h": "c",
+        "string.h": "c"
+    },
+    "idf.openOcdConfigs": [
+        "interface/ftdi/esp32_devkitj_v1.cfg",
+        "target/esp32s3.cfg"
+    ]
+}
